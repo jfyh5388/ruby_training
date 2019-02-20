@@ -3,7 +3,14 @@ module Trig
         puts "I'm the sin method in Trig"
     end
 
-    def hello
-        puts "Hello"
+    def moral
+    end
+
+    def hello(a)
+        puts "Hello"+a
+    end
+
+    def play
+        puts "Playing... in Trig"
     end
 end

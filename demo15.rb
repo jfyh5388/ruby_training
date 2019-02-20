@@ -1,6 +1,7 @@
 $LOAD_PATH << '.'
-require 'demo_trig'
+require 'demo_trig.rb'
 require 'demo_moral'
+require 'pry'
 
 class Example
 include Trig
@@ -8,7 +9,8 @@ include Moral
 end
 
 ex1=Example.new
-ex1.hello
+binding.pry
+ex1.hello(" Jack")
 ex1.play
-Trig.sin
+
 

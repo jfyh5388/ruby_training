@@ -17,6 +17,13 @@ class Song
     end
 end
 
+class A < Song
+   
+    def puts_play
+        @@plays
+    end
+end
+
 class SongList
     def SongList.is_too_long(song)
         return song.duration > 300
@@ -27,6 +34,9 @@ song2 = Song.new("Name2","Artist2", 400)
 song1.play
 song2.play
 song2.play
+a=A.new("Name3","Artist3",500)
+puts a.puts_play
+
 puts Song.song_counts
 puts SongList.is_too_long(song1)
 puts SongList.is_too_long(song2)

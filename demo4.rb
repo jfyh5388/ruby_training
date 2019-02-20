@@ -13,5 +13,5 @@ favor=Hash.new
 favor["Jack"]="apple"
 favor["Lucy"]="pear"
 
-puts favor["pear"]
+puts favor["Linda"]
 puts favor

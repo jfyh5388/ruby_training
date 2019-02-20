@@ -3,10 +3,7 @@ puts "Hello! Ruby!"
 end
 
 def sayhello1(name)
-    if name.class == String
-        puts "Hello! " + name + "!"
-    end
-    puts "Hello! #{name}！"
+    puts "Hello! #{name}!"
 end
 
 def sayhello2(name="Ruby")

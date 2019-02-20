@@ -4,6 +4,6 @@ module Moral
     end
 
     def play
-        puts "Playing..."
+        puts "Playing... in Moral"
     end
 end
